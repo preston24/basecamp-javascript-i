@@ -1,19 +1,24 @@
 // #1 create a variable called 'myName' and assign it to your name as a string.
 
-// CODE HERE
+var myName = ["Preston"]; // CODE HERE
 
 // #2 create a variable called 'iLoveCode' and assign it the value of 'myName' + loves code as a string.
 
-// CODE HERE
+var iLoveCode = myName + "loves code"; // CODE HERE
 
 // ARROW FUNCTIONS
 // #3 using the arrow syntax, create a function called 'wildNameReturn' that takes in variable as a parameter. Return the variable inside of the function with the word 'wild' in front so it returns "wild Bryan" and then invoke wildNameReturn using the 'myName' variable you created as an argument.
 
-// CODE HERE
+var wildNameReturn = (myName) =>{
+  return wild + myName; 
+}
+wildNameReturn(myName)// CODE HERE
 
 // #4 using the arrow syntax, create a function called 'sum' that takes in a number and returns that number added to itself.
 
-// CODE HERE
+var sum = (num) => {
+  num + num;
+}// CODE HERE
 
 // #5 using the arrow syntax, create a function called 'greeter' that takes in two parameters, name & age. greeter should return a string like this "Hi, I'm Bryan and I am 27 years old." but replacing the name and age with the passed in values. The test on this question is very strict on casing and punctuation.
 
