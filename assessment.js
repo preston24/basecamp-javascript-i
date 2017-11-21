@@ -1,10 +1,10 @@
 // #1 create a variable called 'myName' and assign it to your name as a string.
 
-var myName = ["Preston"]; // CODE HERE
+var myName = "Preston"; // CODE HERE
 
 // #2 create a variable called 'iLoveCode' and assign it the value of 'myName' + loves code as a string.
 
-var iLoveCode = myName + "loves code"; // CODE HERE
+var iLoveCode = myName + " loves code"; // CODE HERE
 
 // ARROW FUNCTIONS
 // #3 using the arrow syntax, create a function called 'wildNameReturn' that takes in variable as a parameter. Return the variable inside of the function with the word 'wild' in front so it returns "wild Bryan" and then invoke wildNameReturn using the 'myName' variable you created as an argument.
